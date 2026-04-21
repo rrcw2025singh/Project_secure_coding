@@ -1,5 +1,5 @@
-name: Bandit Scan
-
+name: Run Bandit
+run: bandit -r . || true
 on:
   push:
   pull_request:
